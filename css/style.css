@@ -1,0 +1,73 @@
+﻿/* タイトル */
+
+h1 {
+    border-bottom: solid 1px #000;
+}
+
+
+/* サンプル */
+
+.samplearea {
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+/* サイドバー */
+
+.samplearea_side {
+    width: 300px;
+    height: 700px;
+    background-color: #888;
+    float: left;
+}
+
+
+/* メイン */
+
+.samplearea_main {
+    width: 600px;
+    height: 700px;
+    background-color: #ccc;
+    float: left;
+}
+
+
+/* 広告 */
+
+.ad_300_250 {
+    width: 300px !important;
+    height: 250px !important;
+}
+
+
+/* スマートフォン */
+
+@media screen and (max-width: 414px) {
+    /* サンプル */
+    .samplearea {
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+    /* サイドバー */
+    .samplearea_side {
+        width: 100%;
+        height: 500px;
+        background-color: #888;
+        float: none;
+    }
+    /* メイン */
+    .samplearea_main {
+        width: 100%;
+        height: 500px;
+        background-color: #ccc;
+        float: none;
+    }
+    /* 広告 */
+    .ad_300_250 {
+        width: 300px !important;
+        height: 250px !important;
+    }
+}
