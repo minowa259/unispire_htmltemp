@@ -18,7 +18,7 @@ h1 {
 /* サイドバー */
 
 .samplearea_side {
-    width: 320px;
+    width: 350px;
     height: 700px;
     background-color: #888;
     float: left;
@@ -28,7 +28,7 @@ h1 {
 /* メイン */
 
 .samplearea_main {
-    width: 580px;
+    width: 550px;
     height: 700px;
     background-color: #ccc;
     float: left;
@@ -57,21 +57,5 @@ h1 {
         height: 500px;
         background-color: #ccc;
         float: none;
-    }
-}
-
-
-/* 広告 */
-
-.ad_300_250 {
-    margin: 0 auto;
-    width: 300px !important;
-    height: 250px !important;
-}
-
-@media(min-width: 414px) {
-    .ad_300_250 {
-        width: 300px !important;
-        height: 250px !important;
     }
 }
