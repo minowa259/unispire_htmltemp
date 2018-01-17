@@ -11,13 +11,14 @@ h1 {
     width: 900px;
     height: 700px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 
 /* サイドバー */
 
 .samplearea_side {
-    width: 300px;
+    width: 320px;
     height: 700px;
     background-color: #888;
     float: left;
@@ -27,18 +28,10 @@ h1 {
 /* メイン */
 
 .samplearea_main {
-    width: 600px;
+    width: 580px;
     height: 700px;
     background-color: #ccc;
     float: left;
-}
-
-
-/* 広告 */
-
-.ad_300_250 {
-    width: 300px !important;
-    height: 250px !important;
 }
 
 
@@ -65,7 +58,18 @@ h1 {
         background-color: #ccc;
         float: none;
     }
-    /* 広告 */
+}
+
+
+/* 広告 */
+
+.ad_300_250 {
+    margin: 0 auto;
+    width: 300px !important;
+    height: 250px !important;
+}
+
+@media(min-width: 414px) {
     .ad_300_250 {
         width: 300px !important;
         height: 250px !important;
