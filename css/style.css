@@ -120,3 +120,14 @@ h1 {
     color: #fff;
     font-weight: bolder;
 }
+
+h2 {
+    margin: 10px auto;
+    background-color: #eee;
+    padding: 3px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bolder;
+}
