@@ -115,3 +115,8 @@ h1 {
         background-color: #888;
     }
 }
+
+.nohover {
+    color: #fff;
+    font-weight: bolder;
+}
